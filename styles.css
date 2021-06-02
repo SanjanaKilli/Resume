@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #aaa;
+}
+
+.page {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #335384;
+  color: aliceblue;
+}
+
+.right {
+  background-color: white;
+}
+
+.white-heading {
+  color: aliceblue;
+}
+
+.spacing {
+  padding: 10px;
+  height: 980;
+  box-sizing: border-box;
+}
+
+h3 {
+  color: 5ba7d1;
+}
