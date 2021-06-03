@@ -49,3 +49,51 @@ h1 {
   width: 570;
   height: 55;
 }
+
+html, body {
+  margin: 0;
+  }
+  table {
+    height: 452px;
+    width: 821px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr {
+  height: 143.6px;
+  }
+  td.x {
+    width: 280px;
+    height: 143.6px;
+  }
+  
+  td.y {
+    width: 439px;
+    height: 143.6px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table,
+    tr,
+    td.x,
+    td.y {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+  }
+  /* <div style="overflow-x: auto;">
+    <table>
+      <tbody>
+        <tr>
+          <td class="x"><img src="https://storage.googleapis.com/sc-support-web/en-US/GIF/OnBoarding_Snap_Map" width="250" height="409" /></td>
+          <td class="y">
+            <h3 style="text-align: left;"><span style="color: #333333;"><b>It all starts with a test</b></span></h3>
+            <br />
+            <p style="line-height: 1.6; text-align: left;"><span style="color: #333333; font-size: large;">This is an example. This is an example. Testing and testing again.</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+   */
